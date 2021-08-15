@@ -12,7 +12,7 @@ scatter(u(1,1), u(2,1), 'r*');
 xlim([-1, 1]);
 ylim([-1, 1]);
 
-matrix = randi([-1, 1], 2, 2);
+matrix = randn(2, 2);
 disp('matrix: '); disp(matrix);
 
 [U, S, V] = svd(matrix);

@@ -2,7 +2,7 @@ function decomposeFunc
 
 close all;
 % generate a 2x2 matrix
-matrix = randi([-1, 1], 2, 2);
+matrix = randn(2, 2);
 disp('matrix: '); disp(matrix);
 
 [U, S, V] = svd(matrix);
