@@ -1,0 +1,5 @@
+sys1: linear, not unique
+sys2: non-linear
+sys3: non-linear
+sys4: linear, unique, A=(-1, 0.5)
+sys5: non-linear
