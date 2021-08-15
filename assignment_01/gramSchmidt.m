@@ -9,8 +9,9 @@ function gramSchmidt(N)
     end
     disp(orthonomalVecs);
     close all;
-    figure();
+    
     if N==3
+        figure();
         for i=1:N
             px = [0, orthonomalVecs(1, i)];
             py = [0, orthonomalVecs(2, i)];
@@ -27,6 +28,7 @@ function gramSchmidt(N)
         end
     end
     if N==2
+        figure();
         for i=1:N
             px = [0, orthonomalVecs(1, i)];
             py = [0, orthonomalVecs(2, i)];
